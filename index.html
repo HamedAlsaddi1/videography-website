@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +10,15 @@
 <body>
     <header class="hero">
         <nav>
-            <h1>Hamed Al Saddi Videography</h1>
+            <h1>Hamad Al Saddi Videography</h1>
         </nav>
         <div class="intro">
-            <h2>Welcome to My World of Videography & Photography</h2>
-            <a href="#work" class="button">View My Work</a>
+            <h2>Welcome to My World of Videography</h2>
+            <a href="#" id="viewWorkButton" class="button">View My Work</a>
         </div>
     </header>
 
-    <section id="work" class="video-gallery">
+    <section id="work" class="video-gallery hidden">
         <!-- First YouTube Video -->
         <div class="video-item">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zh15HVZQ34s" frameborder="0" allowfullscreen></iframe>
@@ -34,7 +33,14 @@
     </section>
 
     <footer>
-        <p>Follow me on <a href="https://www.instagram.com/62n/profilecard/?igsh=NWJzOHoyZHl4Zmxr" target="_blank">Instagram</a></p>
+        <p>Follow me on <a href="https://www.instagram.com/your-instagram" target="_blank">Instagram</a></p>
     </footer>
+
+    <script>
+        // JavaScript to show the video gallery when the button is clicked
+        document.getElementById('viewWorkButton').addEventListener('click', function() {
+            document.getElementById('work').classList.remove('hidden');
+        });
+    </script>
 </body>
 </html>
