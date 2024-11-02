@@ -47,7 +47,6 @@ nav h1 {
 
 .video-gallery {
     padding: 20px;
-    margin-top: 50px; /* Added space between the hero section and the videos */
     display: flex;
     flex-direction: column;
     gap: 20px;
